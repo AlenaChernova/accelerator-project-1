@@ -2,3 +2,13 @@
 // ---------------------------------
 
 @import "vendor/normalize";
+
+//Переменные
+@import "./variables";
+
+// Базовые стили
+@import "./fonts";
+@import "./global";
+
+// Блоки компонентов
+@import "./page";
