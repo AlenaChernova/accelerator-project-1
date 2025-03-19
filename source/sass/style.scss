@@ -9,6 +9,9 @@
 // Базовые стили
 @import "./fonts";
 @import "./global";
+@import "./button";
 
 // Блоки компонентов
 @import "./page";
+@import "./hero.scss";
+@import "./header.scss";
