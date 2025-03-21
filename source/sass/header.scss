@@ -2,18 +2,58 @@
   display: flex;
   padding-top: 11px;
   padding-bottom: 16px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 30px;
+    padding-bottom: 23px;
+  }
+}
+
+.header__logo {
+  @media (min-width: $tablet-width) {
+    width: 110px;
+    height: 22px;
+    margin-top: 1px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 130px;
+    height: 26px;
+    margin-top: 0;
+  }
 }
 
 .header__phone {
+  max-width: 155px;
   margin-left: auto;
   padding: 4px 0;
-  border-bottom: 1px solid transparent;
   font-weight: 700;
   font-size: 22px;
   line-height: 22px;
   color: $basic-white;
   text-decoration: none;
+
+  border-bottom: 1px solid transparent;
+
   transition: color 0.4s ease;
+
+  @media (min-width: $tablet-width) {
+    max-width: 400px;
+    padding-top: 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 2px;
+    font-size: 26px;
+    line-height: 26px;
+  }
 
   &:hover {
     color: rgba($secondary, 0.5);
@@ -30,7 +70,7 @@
   }
 
   &--disabled {
-    pointer-events: none;
     color: rgba($secondary-white, 0.5);
+    pointer-events: none;
   }
 }
