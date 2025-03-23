@@ -1,23 +1,23 @@
 .hero__container {
   display: grid;
-  grid-template-columns: 113px 156px;
-  gap: 14px 21px;
   padding-top: 44px;
   padding-bottom: 32px;
+  gap: 14px 21px;
+  grid-template-columns: 113px 156px;
 
   @media (min-width: $tablet-width) {
     position: relative;
-    grid-template-columns: 113px 185px;
-    gap: 10px 26px;
     padding-top: 31px;
     padding-right: 399px;
     padding-bottom: 131px;
+    gap: 10px 26px;
+    grid-template-columns: 113px 185px;
   }
 
   @media (min-width: $desktop-width) {
-    grid-template-columns: 115px 270px;
-    gap: 40px 0;
     padding: 52px 175px 172px 250px;
+    gap: 40px 0;
+    grid-template-columns: 115px 270px;
   }
 }
 
@@ -119,5 +119,13 @@
 
   @media (min-width: $desktop-width) {
     right: 175px;
+  }
+}
+
+.hero__img-container img {
+  max-height: 450px;
+
+  @media (min-width: $desktop-width) {
+    max-height: 600px;
   }
 }

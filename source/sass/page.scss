@@ -44,3 +44,15 @@
   background-color: $secondary-white;
   background-image: $gradient-hero;
 }
+
+.page__form-address-container {
+  @media (min-width: $desktop-width) {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.page__page-footer {
+  margin-top: auto;
+}
