@@ -50,6 +50,87 @@
         </div>
       </section>
     </div>
+    <section class="about" data-test="about">
+      <div class="about__container page__container">
+        <h2 class="visually-hidden">О нас.</h2>
+        <h3 class="about__title title">Тренажёрный зал</h3>
+        <p class="about__description">Просторный зал площадью 900 кв/м</p>
+        <p>Supergym – самый большой фитнес центр за Уралом и идеальное место для укрепления тела и здоровья. Тренажёрный зал оснащён всем необходимым современным оборудованием для всех спортсменов.</p>
+        <p>В зале расположены отдельная зона для Crossfit и кардио-зона с 40 тренажёрами. Также в фитнес центре есть несколько оборудованных залов для различных видов групповых занятий.</p>
+      </div>
+      <div class="about__img-container">
+        <picture>
+          <source type="image/webp" media="(min-width: 1366px)" srcset="img/content/gym-desktop@1x.webp 1x, img/content/gym-desktop@2x.webp 2x" width="660" height="400">
+          <source type="image/webp" media="(min-width: 768px)" srcset="img/content/gym-tablet@1x.webp 1x, img/content/gym-tablet@2x.webp 2x" width="678" height="345">
+          <source type="image/webp" srcset="img/content/gym-mobile@1x.webp 1x, img/content/gym-mobile@2x.webp 2x" width="320" height="280">
+          <source type="image/jpeg" media="(min-width: 1366px)" srcset="img/content/gym-desktop@1x.jpg 1x, img/content/gym-desktop@2x.jpg 2x" width="660" height="400">
+          <source type="image/jpeg" media="(min-width: 768px)" srcset="img/content/gym-tablet@1x.jpg 1x, img/content/gym-tablet@2x.jpg 2x" width="678" height="345">
+          <img class="about__img" src="img/content/gym-mobile@1x.jpg" srcset="img/content/gym-mobile@2x.jpg 2x" width="320" height="280" alt="Тренажерный зал.">
+        </picture>
+      </div>
+      <div class="about__video">
+        <picture>
+          <source type="image/webp" media="(min-width: 1366px)" srcset="img/content/gym-for-video-desktop@1x.webp 1x, img/content/gym-for-video-desktop@2x.webp 2x" width="360" height="230">
+          <source type="image/webp" media="(min-width: 768px)" srcset="img/content/gym-for-video-tablet@1x.webp 1x, img/content/gym-for-video-tablet@2x.webp 2x" width="270" height="170">
+          <source type="image/webp" srcset="img/content/gym-for-video-mobile@1x.webp 1x, img/content/gym-for-video-mobile@2x.webp 2x" width="320" height="170">
+          <source type="image/jpeg" media="(min-width: 1366px)" srcset="img/content/gym-for-video-desktop@1x.jpg 1x, img/content/gym-for-video-desktop@2x.jpg 2x" width="360" height="230">
+          <source type="image/jpeg" media="(min-width: 768px)" srcset="img/content/gym-for-video-tablet@1x.jpg 1x, img/content/gym-for-video-tablet@2x.jpg 2x" width="270" height="170">
+          <img class="about__preview" src="img/content/gym-for-video-mobile@1x.jpg" srcset="img/content/gym-for-video-mobile@2x.jpg 2x" width="320" height="170" alt="Видео о нашем фитнес-центре.">
+        </picture>
+        <!-- Для отображения состояния disabled добавьте класс с модификатором disabled ссылке about__video-button -->
+        <a class="about__video-button" href="https://www.youtube.com/watch?v=9TZXsZItgdw" data-href="https://www.youtube.com/embed/9TZXsZItgdw?autoplay=1">
+          <span class="visually-hidden">Смотреть видео.</span>
+        </a>
+      </div>
+    </section>
+    <section class="price" data-test="price">
+      <div class="price__container page__container">
+        <h2 class="price__title title">Абонементы</h2>
+        <ul class="price__tabs">
+          <li class="price__tab">
+            <button class="price__tab-button" type="button">1 месяц</button>
+          </li>
+          <li class="price__tab">
+            <button class="price__tab-button" type="button">6 месяцев</button>
+          </li>
+          <li class="price__tab">
+            <button class="price__tab-button" type="button">12 месяцев</button>
+          </li>
+        </ul>
+        <ul class="price__rates">
+          <li class="price__rate">
+            <h3 class="price__rate-title">С тренером</h3>
+            <p class="price__rate-description">12 занятий</p>
+            <p class="price__rate-price" data-price="5000">
+              <span>5000</span>
+              <img class="price__ruble" src="img/sprite/__spritemap#sprite-ruble" alt="₽." width="24" height="34">
+            </p>
+            <!-- Для показа состояния disabled добавьте класс с модификатором disabled ссылке с классом button -->
+            <a class="price__rate-button button button--white" href="#">Купить абонемент</a>
+          </li>
+          <li class="price__rate">
+            <h3 class="price__rate-title">Дневной</h3>
+            <p class="price__rate-description">с 8:00 до 17:00</p>
+            <p class="price__rate-price" data-price="1700">
+              <span>1700</span>
+              <img class="price__ruble" src="img/sprite/__spritemap#sprite-ruble" alt="₽." width="24" height="34">
+            </p>
+            <!-- Для показа состояния disabled добавьте класс с модификатором disabled ссылке с классом button -->
+            <a class="price__rate-button button button--white" href="#">Купить абонемент</a>
+          </li>
+          <li class="price__rate">
+            <h3 class="price__rate-title">Полный день</h3>
+            <p class="price__rate-description">с 8:00 до 22:00</p>
+            <p class="price__rate-price" data-price="2700">
+              <span>2700</span>
+              <img class="price__ruble" src="img/sprite/__spritemap#sprite-ruble" alt="₽." width="24" height="34">
+            </p>
+            <!-- Для показа состояния disabled добавьте класс с модификатором disabled ссылке с классом button -->
+            <a class="price__rate-button button button--white" href="#">Купить абонемент</a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
 </body>
 
