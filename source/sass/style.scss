@@ -2,8 +2,9 @@
 // ---------------------------------
 
 @import "vendor/normalize";
+@import "vendor/swiper.scss";
 
-//Переменные
+// Переменные
 @import "./variables";
 
 // Базовые стили
@@ -13,7 +14,6 @@
 
 // Блоки компонентов
 @import "./page";
-@import "./button";
 @import "./title";
 @import "./link";
 @import "./slider-buttons";
