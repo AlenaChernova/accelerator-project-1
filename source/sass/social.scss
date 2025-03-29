@@ -79,7 +79,7 @@
 .social__link--vk {
   &::after {
     margin-top: 2px;
-    mask-image: url("../__spritemap#sprite-icon-vk");
+    mask-image: url("../__spritemap#sprite-icon-vk-view");
     mask-size: 15px 15px;
   }
 }
@@ -87,14 +87,14 @@
 .social__link--ok {
   &::after {
     margin-left: 1px;
-    mask-image: url("../__spritemap#sprite-icon-ok");
+    mask-image: url("../__spritemap#sprite-icon-ok-view");
     mask-size: 10px 17px;
   }
 }
 
 .social__link--reddit {
   &::after {
-    mask-image: url("../__spritemap#sprite-icon-reddit");
+    mask-image: url("../__spritemap#sprite-icon-reddit-view");
     mask-size: 15px 15px;
   }
 }
