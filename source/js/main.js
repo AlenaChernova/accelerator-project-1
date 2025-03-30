@@ -8,6 +8,7 @@ import { initVideo } from './video.js';
 import { initFaq } from './faq.js';
 import { initJurySlider } from './jury-slider.js';
 import { initReviewsSlider } from './reviews-slider.js';
+import { initPrices } from './price/tabs.js';
 
 
 initValidation();
@@ -15,3 +16,4 @@ initVideo();
 initFaq();
 initJurySlider();
 initReviewsSlider();
+initPrices();
