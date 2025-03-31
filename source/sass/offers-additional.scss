@@ -45,6 +45,11 @@
 
 .offers-additional p {
   margin: 0 0 17px;
+  color: $secondary;
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
