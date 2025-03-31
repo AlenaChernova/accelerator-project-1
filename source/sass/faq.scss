@@ -90,7 +90,7 @@
   &:active {
     color: $basic-white;
 
-    background-color: $secondary-white;
+    background-color: $secondary;
     background-image: $gradient-button;
     background-repeat: no-repeat;
     border-color: transparent;
@@ -99,7 +99,7 @@
 
   &--active {
     color: $basic-white;
-    background-color: $secondary-white;
+    background-color: $secondary;
     background-image: $gradient-button;
     background-repeat: no-repeat;
     border-color: transparent;
@@ -300,7 +300,7 @@
 }
 
 .faq__question:hover .faq__close-icon {
-  background-color: $secondary-white;
+  background-color: $secondary;
 
   &::before {
     background-color: $basic-white;
@@ -335,7 +335,7 @@
   background-color: $secondary;
 
   &::before {
-    background-color: #74819c;
+    background-color: $basic-white;
   }
 
   &::after {
